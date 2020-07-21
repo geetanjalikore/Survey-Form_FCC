@@ -1,0 +1,36 @@
+*{
+    font-weight: 600;
+}
+body{
+    background-image: url("Nasa Images of Space-737572.jpg");
+    text-align: center;
+    font-size: 1.4vw ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+    margin: 0;
+}
+
+#header{
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#header h1{
+    color: black;
+    opacity: 3;
+    text-shadow: 0 5px 20px cyan;
+}
+
+#survey-form{
+    margin-left: 15%;
+    display: table;
+    box-sizing: content-box;
+    box-shadow: 10px 20px 20px white;
+}
+
+#survey-form #arrange{
+    display: table-column;
+    text-align: justify;
+}
