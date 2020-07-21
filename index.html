@@ -11,51 +11,50 @@
         <marquee behavior="" direction=""><h1 id="title">Museum Survey Form</h1></marquee> 
     </div>
     
-    <p id="description">Thank you so much for filling out this survey. We’ve created it to in order to learn more about you and what would you like to see in our museum.</p>
+    <p id="description">!!!...Thank you so much for filling out this survey...!!! <br>!!!... We’ve created it to in order to learn more about you and what would you like to see in our museum...!!!</p>
 
     <form action="" id="survey-form">
         <div class="arrange">
-            <label for="name-label">Name : 
-                <input type="text" id="name" placeholder="Geetanjali Kore">
-            </label><br>
+            <div class="row">
+                <label for="name-label">Name : 
+                    <input type="text" id="name" placeholder="Geetanjali Kore">
+                </label><br>
+            </div>
 
-            <label for="email" id="email-label">Email : 
-                <input type="email" id="email" placeholder="abc123@gmail.com">
-            </label><br>
-        
-            <label for="gender" id="gender-label">Gender : 
-                <input type="radio" id="gender1" name="gender" checked>Female
-            </label>
-            <label for="gender" id="gender-label">
-                <input type="radio" id="gender2" name="gender">Male 
-            </label><br>
+            <div class="row">
+                <label for="email" id="email-label">Email : 
+                    <input type="email" id="email" placeholder="abc123@gmail.com">
+                </label><br>
+            </div>
 
-            <label for="mobile">Mobile : 
-                <input type="tel" id="number" min=7 max="10" placeholder="9878675645">  
-            </label><br>
+            <div class="row">
+                <label for="gender" id="gender-label">Gender : 
+                    <input type="radio" id="gender1" name="gender" checked>Female
+                
+                    <input type="radio" id="gender2" name="gender">Male 
+                </label><br>
+            </div>
 
-            <label for="activity">What kind of activities do you like? : <br>
+            <div class="row">
+                <label for="mobile">Mobile : 
+                    <input type="tel" id="number" min=7 max="10" placeholder="9878675645">  
+                </label><br>
+            </div>
 
-                <input type="checkbox" name="activity" id="act-1" value="Exhibits">Exhibits<br>
-                    
-                <input type="checkbox" name="activity" id="act-2" value="Lectures">Lectures <br>
-            
-                <input type="checkbox" name="activity" id="act-3" value="Presentations">Presentations
-            </label><br>
-            
-            <label for="rating">Please Rate Us : 
-                <select name="dropdown" id="dropdown">
-                    <option value="1">&nbsp; 1 &nbsp;</option>
-                    <option value="2">&nbsp; 2 &nbsp;</option>
-                    <option value="3">&nbsp; 3 &nbsp;</option>
-                    <option value="4">&nbsp; 4 &nbsp;</option>
-                    <option value="5">&nbsp; 5 &nbsp;</option>
-                </select>
-            </label><br>
+            <div class="row">
+                <label for="activity">What kind of activities do you like? : <br></label>
+                   <input type="checkbox" name="activity" id="act-1" value="Exhibits">Exhibits
+                        
+                   <input type="checkbox" name="activity" id="act-2" value="Lectures">Lectures 
+                
+                   <input type="checkbox" name="activity" id="act-3" value="Presentations">Presentations
+                
+            </div><br>
 
-            <label for="suggestion">Anything else that you would like to see? Do you have a show suggestion? : 
-                <textarea name="suggest" id="sug" cols="30" rows="10"></textarea>
-            </label><br>
+            <div class="row">
+                <p>Anything else that you would like to see? Do you have a show suggestion? : </p>
+                    <textarea name="suggest" id="sug" cols="50" rows="8"></textarea><br>
+            </div>
 
             <input type="submit" id="submit" value="SUBMIT">
         </div>
